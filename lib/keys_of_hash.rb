@@ -1,9 +1,9 @@
 require 'pry'
 
 class Hash
-  def keys_of(*arguments)
+def find_key(*arg)
   t = []
-  t << arguments
+  t = arg
   arr = []
     h = {
     "sugar glider"=>"Australia",
@@ -13,7 +13,15 @@ class Hash
     "tomato frog"=>"Madagascar",
     "koala"=>"Australia"
   }
+
+  t.each do |i|
+    h.each do |k, v|
+      if i == h[k]
+        puts k
+      end
+    end
   end
+end
 end
 
 # {"sugar glider"=>"Australia",
