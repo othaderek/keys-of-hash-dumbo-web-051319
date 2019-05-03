@@ -26,7 +26,6 @@ class Hash
       end
     end
     arr
-    binding.pry
   end
 end
 
