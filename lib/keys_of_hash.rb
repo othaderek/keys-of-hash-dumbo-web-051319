@@ -20,10 +20,8 @@ class Hash
   
     t.each do |i|
       h.each do |k, v|
-        if arr.length == 0 
-          if i == h[k]
-            arr << k
-          end
+        if i == h[k]
+          arr << k
         end
       end
     end
