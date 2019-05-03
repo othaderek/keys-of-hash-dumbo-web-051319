@@ -1,7 +1,7 @@
 require 'pry'
 
 class Hash
-  def find_key(*arg)
+  def keys_of(*arg)
     t = []
     t = arg
     arr = []
