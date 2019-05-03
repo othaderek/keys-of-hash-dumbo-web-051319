@@ -11,7 +11,11 @@ class Hash
       "red-footed tortoise"=>"Panama",
       "kangaroo"=>"Australia",
       "tomato frog"=>"Madagascar",
-      "koala"=>"Australia"
+      "koala"=>"Australia",
+      a: 1, 
+      b: 2, 
+      c: 3, 
+      d: 1
     }
   
     t.each do |i|
