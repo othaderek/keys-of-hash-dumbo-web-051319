@@ -17,7 +17,7 @@ def find_key(*arg)
   t.each do |i|
     h.each do |k, v|
       if i == h[k]
-        puts k
+        arr << k
       end
     end
   end
